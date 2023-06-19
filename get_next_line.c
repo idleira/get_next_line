@@ -6,12 +6,13 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 18:43:50 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/06/19 12:35:37 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:50:35 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
+/* extract line with '\n' from buffer */
 char	*ft_extract_line(char *rest)
 {
 	int		i;
@@ -40,6 +41,7 @@ char	*ft_extract_line(char *rest)
 	return (str);
 }
 
+/* read from fd until '\n' and put contents into rest*/
 char	*ft_read_till_nl(int fd, char *rest)
 {
 	char	*buff;
@@ -64,6 +66,7 @@ char	*ft_read_till_nl(int fd, char *rest)
 	return (rest);
 }
 
+/* read line from a file specified by fd and return it */
 char	*get_next_line(int fd)
 {
 	char		*line;

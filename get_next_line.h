@@ -6,7 +6,7 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 18:43:53 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/06/19 12:40:12 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:47:54 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,9 +16,9 @@
 # include <unistd.h>
 # include <stdlib.h>
 
-//# ifndef BUFFER_SIZE
-//#  define BUFFER_SIZE 5
-//# endif
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 5
+# endif
 
 char	*get_next_line(int fd);
 

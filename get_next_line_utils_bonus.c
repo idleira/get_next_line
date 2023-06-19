@@ -6,12 +6,13 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/19 12:31:26 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/06/19 12:34:59 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/06/19 12:54:44 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line_bonus.h"
 
+/* get string length */
 size_t	ft_strlen(const char *str)
 {
 	size_t	count;
@@ -24,6 +25,7 @@ size_t	ft_strlen(const char *str)
 	return (count);
 }
 
+/* locate first occurrence of character in string */
 char	*ft_strchr(char *str, int find)
 {
 	int	i;
@@ -42,6 +44,7 @@ char	*ft_strchr(char *str, int find)
 	return (0);
 }
 
+/* combine 2 strings into single string */
 char	*ft_strjoin(char *rest, char *buff)
 {
 	size_t	i;
@@ -70,6 +73,7 @@ char	*ft_strjoin(char *rest, char *buff)
 	return (newstr);
 }
 
+/* remove first line from rest and return remaining content */
 char	*ft_new_rest(char *rest)
 {
 	int		i;
