@@ -6,7 +6,7 @@
 /*   By: ibeliaie <ibeliaie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/06/04 18:43:50 by ibeliaie          #+#    #+#             */
-/*   Updated: 2023/06/19 12:50:35 by ibeliaie         ###   ########.fr       */
+/*   Updated: 2023/06/19 15:23:37 by ibeliaie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,7 +73,7 @@ char	*get_next_line(int fd)
 	static char	*rest;
 
 	if (fd < 0 || BUFFER_SIZE <= 0)
-		return (0);
+		return (NULL);
 	rest = ft_read_till_nl(fd, rest);
 	if (!rest)
 		return (NULL);
