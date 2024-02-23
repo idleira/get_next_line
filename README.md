@@ -1,14 +1,23 @@
-# get_next_line - 42Wolfsburg
+# get_next_line - @42Wolfsburg
 ## description
 get_next_line is a project about creating a function that reads a line ending with a newline character ('\n') from a file descriptor, without knowing its size beforehand.
 
 main concepts in this project are:
 
-  • static variables, and complexity of using of one or many of them;
+  → static variables, and complexity of using of one or many of them;
   
-  • allocations, in stack memory or in the heap memory;
+  → allocations, in stack memory or in the heap memory;
   
-  • manipulation and the life cycle of a buffer.
+  → manipulation and the life cycle of a buffer.
+
+here are some **sources** that helped me:
+
+• [get_next_line explained : develop a function that reads a file line by line](https://www.youtube.com/watch?v=8E9siq7apUU&ab_channel=Oceano)
+
+• [master file I/O operations with 42’s get_next_line project](https://medium.com/@ayogun/master-file-i-o-operations-with-42s-get-next-line-project-5fb001d1fff5)
+
+• [42 get next line guide (string approach)](https://medium.com/@lannur-s/gnl-c3cff1ee552b)
+  
 
 ## how does it work
 this project uses special variables called **static variables**, they remember their value even after the function is called again.
