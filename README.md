@@ -12,11 +12,13 @@ main concepts in this project are:
 
 ## 
 
-here are some **sources** that helped me:
+here are some **resources** i used:
+
+• [handling a file by its descriptor in c](https://www.codequoi.com/en/handling-a-file-by-its-descriptor-in-c/)
+
+• [local, global and static variables in c](https://www.codequoi.com/en/local-global-static-variables-in-c/)
 
 • [get_next_line explained : develop a function that reads a file line by line](https://www.youtube.com/watch?v=8E9siq7apUU&ab_channel=Oceano)
-
-• [master file I/O operations with 42’s get_next_line project](https://medium.com/@ayogun/master-file-i-o-operations-with-42s-get-next-line-project-5fb001d1fff5)
 
 • [42 get next line guide (string approach)](https://medium.com/@lannur-s/gnl-c3cff1ee552b)
 
