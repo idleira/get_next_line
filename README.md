@@ -10,6 +10,8 @@ main concepts in this project are:
   
   → manipulation and the life cycle of a buffer.
 
+## 
+
 here are some **sources** that helped me:
 
 • [get_next_line explained : develop a function that reads a file line by line](https://www.youtube.com/watch?v=8E9siq7apUU&ab_channel=Oceano)
@@ -17,7 +19,8 @@ here are some **sources** that helped me:
 • [master file I/O operations with 42’s get_next_line project](https://medium.com/@ayogun/master-file-i-o-operations-with-42s-get-next-line-project-5fb001d1fff5)
 
 • [42 get next line guide (string approach)](https://medium.com/@lannur-s/gnl-c3cff1ee552b)
-  
+
+## 
 
 ## how does it work
 this project uses special variables called **static variables**, they remember their value even after the function is called again.
